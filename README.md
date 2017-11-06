@@ -5,8 +5,8 @@
 
 自己用的话，直接把项目拷贝到 xxx\.vscode\extensions 文件夹下
 
-### For more information
-* 很好的参考文章：[VSCODE 插件初探](http://www.cnblogs.com/lianmin/p/5499266.html)
+### 关于 vscode 插件开发很好的参考文章
+* [VSCODE 插件初探](http://www.cnblogs.com/lianmin/p/5499266.html)
 * [vscode extension插件开发](http://www.jianshu.com/p/520c575e91c3)
 
 
