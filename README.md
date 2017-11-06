@@ -1,7 +1,6 @@
 # README
 为 vscode 的 PHP 代码生成注释模板，在要增加注释的函数名上点击鼠标右键然后点"PHP add notes"菜单项就可以了。  
-只是修改了 PHPComments 的 BUG
-感谢原作者 yurun
+只是修改了 PHPComments 的 BUG，感谢原作者 yurun
 
 自己用的话，直接把项目拷贝到 xxx\.vscode\extensions 文件夹下
 
