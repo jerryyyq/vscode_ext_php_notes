@@ -1,0 +1,50 @@
+{
+    "name": "phpaddnotes",
+    "displayName": "PHPAddNotes",
+    "description": "add php function's note",
+    "version": "0.0.1",
+    "publisher": "YangYuQi",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.addPHPNotes"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.addPHPNotes",
+            "title": "PHP add notes"
+        }],
+        "keybindings": [{
+            "command": "extension.addPHPNotes",
+            "key": "ctrl+shift+n",
+            "mac": "ctrl+shift+n",
+            "when": "editorTextFocus"
+        }],
+        "menus": {
+            "editor/context": [
+            {
+                "when": "resourceLangId == php",
+                "command": "extension.addPHPNotes",
+                "group": "navigation"
+            }]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.3",
+        "vscode": "^1.1.5",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
