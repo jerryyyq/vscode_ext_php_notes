@@ -1,6 +1,6 @@
 {
-    "name": "phpaddnotes",
-    "displayName": "PHPAddNotes",
+    "name": "php_add_notes",
+    "displayName": "PHP Add Notes",
     "description": "add php function's note",
     "version": "0.0.1",
     "publisher": "YangYuQi",
